@@ -29,10 +29,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
-	line-height: 1;
+	line-height: 1.5em;
+	font-size: 1.125em;
 }
 p{
-	line-height 1.5em;
+	margin-bottom: 1.5em;
+	padding-bottom: .5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 ol, ul {
 	list-style: none;
