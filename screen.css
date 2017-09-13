@@ -35,13 +35,16 @@ html {
 h1{
 	font-size: 2.5em;
 	line-height: 1.3em;
+	padding-bottom: 1em;
+	text-align: center;
 }
 p{
 	margin-bottom: 1.5em;
-	padding-top: 1em;
+	padding-top: 0em;
 	padding-bottom: .5em;
 	padding-left: 2.5em;
 	padding-right: 4.5em;
+	text-indent: 0em;
 }
 ol, ul {
 	list-style: none;
