@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 html {
 	line-height: 1;
 }
+p{
+	line-height 1.5em;
+}
 ol, ul {
 	list-style: none;
 }
