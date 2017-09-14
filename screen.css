@@ -30,30 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
 	line-height: 1.5em;
-	font-size: 1.125em;
-	text-rendering: optimizeLegibility;
+	/*font-size: 1.125em;
+	text-rendering: optimizeLegibility
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-}
-img{
-	display: block;
-	max-width: 100%;
-}
-h1{
-	font-size: 2.5em;
-	line-height: 1.3em;
-	padding-bottom: 1em;
-	text-align: center;
-}
-p{
-	margin-bottom: 1.5em;
-	padding-top: 0em;
-	padding-bottom: .5em;
-	padding-left: 2.5em;
-	padding-right: 4.5em;
-	text-indent: 0em;
+	text-size-adjust: 100%; */
 }
 ol, ul {
 	list-style: none;
@@ -72,3 +54,38 @@ table {
 }
 /* End Reset CSS
   Begins Site styles */
+	/*img{
+		display: block;
+		max-width: 100%;
+	}*/
+	body{
+		background-color: #64a3b4;
+	}
+	header{
+		background-color: #e6e6e6;
+		height: 4.5em;
+	}
+	h1{
+		font-size: 1.75em;
+		font-weight: bold;
+		line-height:1.125em;
+		padding-bottom: 1.5em;
+		text-align: center;
+	}
+	.photo{
+		display: block;
+		margin: auto;
+		padding-top: 1em;
+		padding-bottom: .5em;
+		max-width: 75%;
+		border-radius: 100%;
+	}
+	p{
+		margin-bottom: 1.5em;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		text-indent: 0em;
+		text-align: justify;
+	}
